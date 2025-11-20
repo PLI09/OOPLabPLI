@@ -19,9 +19,9 @@ namespace ConsoleApp111
             int n = Int32.Parse(Console.ReadLine());
 
             if (n < 3) 
-            {
+            
                 Console.WriteLine("\nПожалуйста введите n >= 3!");
-            }
+            
             else 
             {
                 Random R = new Random(); //Создание объекта Random для генерации случайных чисел.
